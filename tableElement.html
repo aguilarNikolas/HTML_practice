@@ -88,5 +88,93 @@
                 <td>100</td>
             </tr>
         </table>
+        <br><br><br>
+        <table border="2" align="center" cellspacing="8" cellpadding="10" bgcolor="blue">
+            <caption>New table</caption>
+            <thead>
+                <tr bgcolor="red">
+                    <!-- Scope attribute is used in table heading only -->
+                    <th scope="col" bgcolor="lightgreen">Number</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Average</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>63</td>
+                </tr>
+                <tr>
+                    <th scope="row" bgcolor="#ffffff">2</th>
+                    <td>Matt</td>
+                    <td>51</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Matt</td>
+                    <td>51</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Matt</td>
+                    <td>51</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Number</th>
+                    <th>Name</th>
+                    <th>Average</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br><br><br>
+        <table border="2" align="center" cellspacing="8" cellpadding="10">
+            <caption>Another table</caption>
+            <colgroup>
+                <col bgcolor="red" span="2">
+                <col bgcolor="lightblue">
+            </colgroup>
+            <thead>
+                <tr>
+                    <!-- Scope attribute is used in table heading only -->
+                    <th scope="col">Number</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Average</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>63</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Matt</td>
+                    <td>51</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Matt</td>
+                    <td>51</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Matt</td>
+                    <td>51</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Number</th>
+                    <th>Name</th>
+                    <th>Average</th>
+                </tr>
+            </tfoot>
+        </table>
+
     </body>
 </html>
