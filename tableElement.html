@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Table element</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <table border="2" align="center">
+            <caption>Product info</caption>
+            <tr align="center">
+                <th>Product ID <br> Product ID Product ID Product ID</th>
+                <th valign="top">Product Element</th>
+                <th valign="bottom">Product Quality</th>
+                <th>Product Quantity</th>
+            </tr>
+            <tr align="center">
+                <td>1</td>
+                <td>Iphone</td>
+                <td>awesome</td>
+                <td>2</td>
+            </tr>
+            <tr align="right">
+                <td>2</td>
+                <td>Samsung</td>
+                <td>good</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nokia</td>
+                <td>bad</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <!-- cellpadding is the margin inside the cell -->
+        <table border="2" align="center" cellspacing="8" cellpadding="10">
+            <caption>Product info</caption>
+            <tr align="center">
+                <th>Product ID</th>
+                <th>Product Element</th>
+                <th>Product Quality</th>
+                <th>Product Quantity</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Iphone</td>
+                <td>awesome</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Samsung</td>
+                <td>good</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nokia</td>
+                <td>bad</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <br><br>
+        <table border="2" align="center" cellspacing="8" cellpadding="10">
+            <tr>
+                <th>Player name</th>
+                <th>Match</th>
+                <th>Wicket</th>
+                <th>Runs</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>150</td>
+                <td>10</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>Matt</td>
+                <!-- column span can merge two cells -->
+                <td colspan="2" align="center">10</td>
+                <td rowspan="2" valign="bottom">500</td>
+            </tr>
+            <tr>
+                <td>Edson</td>
+                <td>1000</td>
+                <td>100</td>
+            </tr>
+        </table>
+    </body>
+</html>
