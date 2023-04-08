@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>action attributes</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <fieldset align="center">
+            <legend>Application form</legend>
+            <form action="http://www.google.com" method="post">
+                <label for="username">username:</label>
+                <input type="text" placeholder="User Name" title="username" id="username"><br><br>
+                <label for="">E-mail:</label>
+                <input type="email" placeholder="email" title="email"><br><br>
+                <label for="pwd">Password:</label>
+                <input type="password" placeholder="Password" title="password" pattern="[0-9]{3}" id="pwd"><br><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <br><br>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+                <br><br>
+                <!-- Selectbox is a dropdown list -->
+                <select name="" id="">
+                    <optgroup label="Options">
+                        <option value="">1st option</option>
+                        <option value="">2nd option</option>
+                        <option value="">3rd option</option>
+                        <option value="">4th option</option>
+                    </optgroup>
+                </select>
+            </form>
+        </fieldset>
+        <fieldset>
+            <input type="text" list="general-store">
+                <datalist id="general-store">
+                    <option>Milk</option>
+                    <option>Tomato</option>
+                    <option>Onion</option>
+                    <option>Cocumber</option>
+                    <option>garlic</option>
+                </datalist>
+        </fieldset>
+    </body>
+</html>
